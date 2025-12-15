@@ -132,19 +132,39 @@ img {
 
 /*===========Hero========== */
 .hero-section {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  /*   background-color: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
+
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero/people-office\ 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  max-width: 1440px;
+  max-height: 600px;
+  margin: 0 auto; */
+}
+.hero-container {
   background-color: #2e2f42;
   padding: 188px 0;
   text-align: center;
-}
-
-.hero-container {
-  background-image: url("../images/hero/people-office\ 1.jpg");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero/people-office\ 1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   max-width: 1440px;
   max-height: 600px;
-  background-repeat: no-repeat;
-  background-position: 0 0px;
+  margin: 0 auto;
 }
-
 .hero-title {
   font-weight: 700;
   font-size: 56px;
@@ -177,7 +197,7 @@ img {
   background-color: #404bbf;
 }
 .hero-section > .container {
-  display: block;
+  /*   display: block; */
 }
 /* -----------features-section---------------- */
 .visually-hidden {
