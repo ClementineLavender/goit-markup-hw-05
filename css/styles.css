@@ -40,6 +40,9 @@ address {
 img {
   display: block;
 }
+:root {
+  --color-brand-light: #f4f4fd;
+}
 /* Header */
 /* region Logo */
 
@@ -299,6 +302,12 @@ img {
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: #404bbf;
+}
+
+.icon-social.icon-light {
+  fill: var(--color-brand-light);
+  width: 16px;
+  height: 16px;
 }
 
 .team-title-main {
