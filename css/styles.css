@@ -509,6 +509,8 @@ img {
   width: 24px;
   height: 24px;
   fill: var(--color-brand-light);
+  display: flex;
+  gap: 16px;
 }
 
 .footer-text {
