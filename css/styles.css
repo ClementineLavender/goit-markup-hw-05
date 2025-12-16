@@ -42,6 +42,7 @@ img {
 }
 :root {
   --color-brand-light: #f4f4fd;
+  --color-footer: #4d5ae5;
 }
 /* Header */
 /* region Logo */
@@ -446,8 +447,9 @@ img {
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-container .container {
-dis
+.footer-container {
+  display: flex;
+  align-items: baseline;
 }
 
 .footer .logo {
@@ -465,6 +467,46 @@ dis
 }
 .logo-light {
   color: #f4f4fd;
+}
+.footer-block {
+  margin-right: 120px;
+}
+
+.footer-social-media {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.social-list .social-list-dark {
+  display: flex;
+  gap: 16px;
+}
+.social-block-item.current {
+  width: 40px;
+  height: 40px;
+}
+
+.social-icon-link.social-icon-link-dark {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-footer);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.social-icon-link.social-icon-link-dark:hover,
+.social-icon-link.social-icon-link-dark:focus {
+  background-color: #31d0aa;
+}
+
+.icon-social.social-dark {
+  width: 24px;
+  height: 24px;
+  fill: var(--color-brand-light);
 }
 
 .footer-text {
