@@ -524,13 +524,60 @@ img {
 /* #footer end */
 
 /* #region Modal window */
-/* .backdrop {
+.backdrop {
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
-  display: none;
   width: 100%;
   height: 100%;
-} */
+  background-color: rgba(0, 0, 0, 0.7);
+
+  /* приховуємо елемент */
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
+  transition: opacity 400ms ease-in; /* де взяти інфо???? */
+  visibility: 400ms ease-in;
+}
+
+.backdrop.is-open {
+  opacity: 1;
+  pointer-events: initial;
+  visibility: visible;
+}
+
+.modal {
+  background-color: #fcfcfc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+.modal-form-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+
+  line-height: 1.3;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #4d5ae5;
+}
+.modal-form-field {
+  flex-direction: column;
+}
+.btn-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  fill: #e7e9fc;
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+}
 /* #region Modal window end*/
