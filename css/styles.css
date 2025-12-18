@@ -625,6 +625,7 @@ img {
 .btn-close:focus {
   border: none;
   background-color: #404bbf;
+   fill: #ffffff-,
 }
 
 .btn-close-icon {
@@ -661,7 +662,7 @@ img {
 }
 .modal-input:hover,
 .modal-input:focus {
-  border-color: #4d5ae5;
+  fill: #4d5ae5;
 }
 .modal-form-icon {
   position: absolute;
