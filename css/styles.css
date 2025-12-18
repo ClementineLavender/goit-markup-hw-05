@@ -624,7 +624,7 @@ img {
 }
 
 .btn-close:hover,
-.btn-close:focus: {
+.btn-close:focus {
   background-color: #404bbf;
   border: none;
 }
