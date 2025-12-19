@@ -45,6 +45,7 @@ img {
   --color-brand-light: #f4f4fd;
   --color-footer: #4d5ae5;
   --color-modal-info: #2e2f42;
+  --color-modal-form-label: #8e8f99;
 }
 /* Header */
 /* region Logo */
@@ -545,6 +546,7 @@ img {
 }
 .btn-subscribe-icon {
   fill: #fff;
+  margin-left: 16px;
 }
 .footer-form.subscribe-form {
   display: flex;
@@ -680,6 +682,7 @@ img {
   letter-spacing: 0.04em;
   color: #ffffff;
   margin-bottom: 4px;
+  color: var(--color-modal-form-label);
 }
 .modal-form-wraper {
   position: relative;
