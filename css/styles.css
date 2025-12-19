@@ -654,6 +654,7 @@ img {
 }
 .modal-form-wraper {
   position: relative;
+  margin-bottom: 8px;
 }
 .modal-input {
    
