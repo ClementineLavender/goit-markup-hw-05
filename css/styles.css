@@ -1049,7 +1049,7 @@ img {
 .custom-checkbox {
   display: inline-flex;
   align-items: center;
-  /*   justify-content: center; */
+  justify-content: center;
   width: 16px;
   height: 16px;
   margin-right: 8px;
