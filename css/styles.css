@@ -1038,20 +1038,19 @@ img {
 }
 
 .modal-form-box {
+  display: block;
+  margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  flex-wrap: wrap;
-  display: flex;
-  gap: 8px;
 }
 
 .custom-checkbox {
   display: inline-flex;
   align-items: center;
-  justify-content: center;
-  width: 20px;
+  /*   justify-content: center; */
+  width: 16px;
   height: 16px;
   margin-right: 8px;
   border-radius: 2px;
